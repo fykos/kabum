@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		0826B63428A5F0F500AC5721 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826B63328A5F0F500AC5721 /* AppDelegate.swift */; };
 		0826B63628A5F0F500AC5721 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826B63528A5F0F500AC5721 /* SceneDelegate.swift */; };
-		0826B63828A5F0F500AC5721 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826B63728A5F0F500AC5721 /* ViewController.swift */; };
 		0826B63B28A5F0F500AC5721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0826B63928A5F0F500AC5721 /* Main.storyboard */; };
 		0826B63E28A5F0F500AC5721 /* Kabum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0826B63C28A5F0F500AC5721 /* Kabum.xcdatamodeld */; };
 		0826B64028A5F0F800AC5721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0826B63F28A5F0F800AC5721 /* Assets.xcassets */; };
 		0826B64328A5F0F800AC5721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0826B64128A5F0F800AC5721 /* LaunchScreen.storyboard */; };
 		0826B64E28A5F0F800AC5721 /* KabumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826B64D28A5F0F800AC5721 /* KabumTests.swift */; };
 		0826B65928A5F0F800AC5721 /* KabumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826B65828A5F0F800AC5721 /* KabumUITests.swift */; };
+		0826B67628A5F26A00AC5721 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826B67528A5F26A00AC5721 /* Api.swift */; };
+		0826B67B28A5F45A00AC5721 /* InicioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826B67A28A5F45A00AC5721 /* InicioTableViewController.swift */; };
+		0826B69128A625C500AC5721 /* Produto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826B69028A625C400AC5721 /* Produto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		0826B63028A5F0F500AC5721 /* Kabum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kabum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0826B63328A5F0F500AC5721 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0826B63528A5F0F500AC5721 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0826B63728A5F0F500AC5721 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0826B63A28A5F0F500AC5721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0826B63D28A5F0F500AC5721 /* Kabum.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kabum.xcdatamodel; sourceTree = "<group>"; };
 		0826B63F28A5F0F800AC5721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,9 @@
 		0826B65428A5F0F800AC5721 /* KabumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KabumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0826B65828A5F0F800AC5721 /* KabumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KabumUITests.swift; sourceTree = "<group>"; };
 		0826B65A28A5F0F800AC5721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0826B67528A5F26A00AC5721 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		0826B67A28A5F45A00AC5721 /* InicioTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioTableViewController.swift; sourceTree = "<group>"; };
+		0826B69028A625C400AC5721 /* Produto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Produto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 		0826B66C28A5F13600AC5721 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				0826B67528A5F26A00AC5721 /* Api.swift */,
+				0826B69028A625C400AC5721 /* Produto.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -149,7 +155,7 @@
 		0826B66E28A5F14000AC5721 /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				0826B63728A5F0F500AC5721 /* ViewController.swift */,
+				0826B67A28A5F45A00AC5721 /* InicioTableViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -293,10 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0826B63828A5F0F500AC5721 /* ViewController.swift in Sources */,
 				0826B63428A5F0F500AC5721 /* AppDelegate.swift in Sources */,
 				0826B63E28A5F0F500AC5721 /* Kabum.xcdatamodeld in Sources */,
+				0826B67628A5F26A00AC5721 /* Api.swift in Sources */,
+				0826B67B28A5F45A00AC5721 /* InicioTableViewController.swift in Sources */,
 				0826B63628A5F0F500AC5721 /* SceneDelegate.swift in Sources */,
+				0826B69128A625C500AC5721 /* Produto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
